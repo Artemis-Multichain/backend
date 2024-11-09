@@ -54,7 +54,7 @@ Artemis backend is built using FastAPI and interacts with a database (PostgreSQL
 
 ## 🤖 Automation Tasks
 
-- **`finalize_challenges`:** A Celery task scheduled to run every 30 minutes. This task interacts with the EVM blockchain to determine challenge winners and distribute prizes.
+- **`finalize_challenges`:** ~A Celery task scheduled to run every 30 minutes. This task interacts with the EVM blockchain to determine challenge winners and distribute prizes~. **Use Chainlink automation**
 
 ## 🤖 Database
 
